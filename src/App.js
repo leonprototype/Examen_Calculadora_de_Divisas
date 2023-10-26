@@ -81,8 +81,8 @@ const App = () => {
           {resultado} {aMoneda}
         </div>
         <select value={aMoneda} onChange={(e) => setAMoneda(e.target.value)}>
-          {opciones.map((currency) => (
-            <option key={currency} value={currency}>
+          {opciones.map((moneda) => (
+            <option key={moneda} value={moneda}>
               {currency}
             </option>
           ))}
